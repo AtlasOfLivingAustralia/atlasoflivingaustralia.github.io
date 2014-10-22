@@ -420,6 +420,14 @@
 </tbody>
 </table>
 
+<ul>
+{% for repo in site.data.repos %}
+  <li>
+    <a href="https://github.com/AtlasOfLivingAustralia/%7B%7B%20repo.name%20%7D%7D"> {{ member.name }} </a>
+  </li>
+{% endfor %}
+</ul>
+
 <h3>
 <a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>authors and contributors</h3>
 
